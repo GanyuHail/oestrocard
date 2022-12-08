@@ -24,11 +24,11 @@ var _stage,
 	//VARS ACCESSIBLE BY GUI
 	_guiOptions = {
 		stageSize: 1,
-		scale: 1.8,
-		scanStep: 2,
-		lineThickness: 1.9,
-		opacity: 1.0,
-		depth: 61,
+		scale: 1.2,
+		scanStep: 1,
+		lineThickness: 3,
+		opacity: 0.3,
+		depth: 44,
 		autoRotate: false
 	};
 
@@ -358,7 +358,7 @@ function getBrightness(c) {
 
 function loadLogo() {
 	_inputImage = new Image();
-	_inputImage.src = ("img/logo.png");
+	_inputImage.src = ("img/banner-tall.png");
 
 	_inputImage.onload = function () {
 		onImageLoaded2();

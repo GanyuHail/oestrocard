@@ -24,11 +24,11 @@ var _stage,
 	//VARS ACCESSIBLE BY GUI
 	_guiOptions = {
 		stageSize: 1,
-		scale: 1.2,
+		scale: 1.5,
 		scanStep: 1,
 		lineThickness: 3,
 		opacity: 0.3,
-		depth: 44,
+		depth: 35,
 		autoRotate: false
 	};
 

@@ -24,7 +24,7 @@ var _stage,
 	//VARS ACCESSIBLE BY GUI
 	_guiOptions = {
 		stageSize: 1,
-		scale: 2,
+		scale: 1.8,
 		scanStep: 1,
 		lineThickness: 3,
 		opacity: 0.3,
